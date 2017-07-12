@@ -1,0 +1,142 @@
+/* Standard Colors
+---------------------------------------- */
+/* Accent Colors
+---------------------------------------- */
+/* Background Colors
+---------------------------------------- */
+.page-content {
+  margin-left: 185px;
+  margin-top: 35px;
+  margin-right: 40px;
+  overflow: hidden; }
+
+.sub-heading {
+  font-weight: 100;
+  color: #353430;
+  line-height: 1.16666666666667;
+  line-height: 1.75rem;
+  /* 28px */
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #BBB;
+  font: "proxima-nova-soft","Helvetica Neue","Microsoft Sans Serif",sans-serif; }
+
+/* *** Color Palette **** */
+.palette {
+  padding: 10px; }
+
+.standard, .backgrounds {
+  margin-top: 0.5em;
+  border: solid #353430 0.8px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 220px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 2px 1px 0px rgba(0, 0, 0, 0.12); }
+
+.accents {
+  margin-top: 0.5em;
+  border: solid #353430 0.8px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 180px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0px 2px 1px 0px rgba(0, 0, 0, 0.12); }
+
+.standard p, .accents p, .backgrounds p {
+  color: #fff; }
+
+#warm-gray p, #cool-gray p, #gray-mist p, #gray-cement p, #light-green p, #yellow p, #gray-smoke p, #gold p, #bg-light-gray p, #bg-silver-gray p, #bg-off-white p {
+  color: #333; }
+
+#red {
+  background-color: #a82439; }
+
+#black {
+  background-color: #353430; }
+
+#warm-gray {
+  background-color: #edeade; }
+
+#cool-gray {
+  background-color: #ecebe5; }
+
+#blue {
+  background-color: #407892; }
+
+#light-blue {
+  background-color: #02bac1; }
+
+#green {
+  background-color: #25b6a4; }
+
+#light-green {
+  background-color: #c6dbd2; }
+
+#yellow {
+  background-color: #fed03d; }
+
+#gold {
+  background-color: #f39c12; }
+
+#orange {
+  background-color: #e35c4a; }
+
+#purple {
+  background-color: #9b2672; }
+
+#gray-slate {
+  background-color: #62605a; }
+
+#gray-smoke {
+  background-color: #9a9996; }
+
+#gray-mist {
+  background-color: #cbcac5; }
+
+#gray-cement {
+  background-color: #e2e2e1; }
+
+#bg-light-gray {
+  background-color: #ecebe5; }
+
+#bg-silver-gray {
+  background-color: #e5e5e5; }
+
+#bg-off-white {
+  background-color: #f2f2f0; }
+
+#bg-red {
+  background-color: #a82439; }
+
+/* *************** */
+/* ***Typography**** */
+#pn100 {
+  font-weight: 100; }
+
+/* ************ */
+#title {
+  font-size: 45px;
+  padding-bottom: 0.75em;
+  padding-top: 38px;
+  border-bottom: 2px dashed #000000; }
+
+.home img {
+  height: auto;
+  width: 30%;
+  float: left;
+  margin-right: 50px; }
+
+#icons, #organisms, #molecules, #layout {
+  padding-top: 1em; }
+
+#layout {
+  padding-top: 3em; }
+
+#style {
+  padding-top: 20px; }
