@@ -1,6 +1,8 @@
 # smc-style-guide
 A guide for styling and design best practices promoted by the Strategic Marketing and Communications department.
 
+The style guide can be viewed here: [https://chapmanu.github.io/smc-style-guide/](https://chapmanu.github.io/smc-style-guide/)
+
 ### Installation
 - Clone this repository
 - `gem install jekyll`
