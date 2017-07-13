@@ -30,12 +30,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Customized changes start here
 include: ["_pages"]
 permalink: /:title/
 
 sass:
     sass_dir: assets
+
+assets:
+  baseurl: /assets/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
