@@ -4,32 +4,37 @@ title: Typography
 permalink: /typography/
 ---
 
-<h1>Header 1</h1>
-<h2>Header 2</h2>
-<h3>Header 3</h3>
-<h4>Header 4</h4>
-<h5>Header 5</h5>
-<h6>Header 6</h6>
+<div class="wrapper">
+  <h2>Typography</h2>
 
-<strong>Bold</strong>
+  <h1>Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
 
-<span style="text-decoration: underline;">Underline</span>
+  <strong>Bold</strong>
 
-<em>Italic</em>
+  <span style="text-decoration: underline;">Underline</span>
 
-<p>A link: <a href="#">Click Here for Info</a></p>
+  <em>Italic</em>
 
-<div>
-  <h4> Headers </h4>
-  <div class="headers" id="pn800"> <h1>Proxima Nova - 800</h1> </div>
-  <div class="headers" id="pn100"> <h1>Proxima Nova - 100</h1> </div>
+  <p>A link: <a href="#">Click Here for Info</a></p>
 
-  <h4> Paragraphs </h4>
-  <div class="paragraphs" id="pns.bold"> <p>Proxima Nova Soft - Bold</p> </div>
-  <div class="paragraphs" id="pns.reg"> <p>Proxima Nova Soft - Regular</p> </div>
+  <div>
+    <h4> Headers </h4>
+    <div class="headers" id="pn800"> <h1>Proxima Nova - 800</h1> </div>
+    <div class="headers" id="pn100"> <h1>Proxima Nova - 100</h1> </div>
 
-  <h4> Accents and Special Use Cases </h4>
-  <div class="special" id="f.book"> <p>Futura Book</p> </div>
-  <div class="special" id="f.light"> <p>Futura Light</p> </div>
-  <div class="special" id="m.bold"> <p>Minion Bold</p> </div>
-  <div class="special" id="m.reg"> <p>Minion Regular</p> </div>
+    <h4> Paragraphs </h4>
+    <div class="paragraphs" id="pns.bold"> <p>Proxima Nova Soft - Bold</p> </div>
+    <div class="paragraphs" id="pns.reg"> <p>Proxima Nova Soft - Regular</p> </div>
+
+    <h4> Accents and Special Use Cases </h4>
+    <div class="special" id="f.book"> <p>Futura Book</p> </div>
+    <div class="special" id="f.light"> <p>Futura Light</p> </div>
+    <div class="special" id="m.bold"> <p>Minion Bold</p> </div>
+    <div class="special" id="m.reg"> <p>Minion Regular</p> </div>
+  </div>
+</div>

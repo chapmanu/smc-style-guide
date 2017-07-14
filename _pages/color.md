@@ -4,34 +4,39 @@ title: Color
 permalink: /color/
 ---
 
-<div class="palette">
-  <h4> Standard </h4>
-  <div class="standard" id="red"> <p>$red: #a82439</p> </div>
-  <div class="standard" id="black"> <p>$black: #353430</p> </div>
-  <div class="standard" id="warm-gray"> <p>$warm-gray: #edeade</p> </div>
-  <div class="standard" id="cool-gray"> <p>$cool-gray: #ecebe5</p> </div>
-</div>
+<div class="wrapper">
 
-<div class="palette">
-  <h4> Accents </h4>
-  <div class="accents" id="blue"> <p>$blue: #407892</p> </div>
-  <div class="accents" id="light-blue"> <p>$light-blue: #02bac1</p> </div>
-  <div class="accents" id="green"> <p>$green: #25b6a4</p> </div>
-  <div class="accents" id="light-green"> <p>$light-green: #c6dbd2</p> </div>
-  <div class="accents" id="yellow"> <p>$yellow: #fed03d</p> </div>
-  <div class="accents" id="gold"> <p>$gold: #f39c12</p> </div>
-  <div class="accents" id="orange"> <p>$orange: #e35c4a</p> </div>
-  <div class="accents" id="purple"> <p>$purple: #9b2672</p> </div>
-  <div class="accents" id="gray-slate"> <p>$gray-slate: #62605a</p> </div>
-  <div class="accents" id="gray-smoke"> <p>$gray-smoke: #9a9996</p> </div>
-  <div class="accents" id="gray-mist"> <p>$gray-mist: #cbcac5</p> </div>
-  <div class="accents" id="gray-cement"> <p>$gray-cement: #e2e2e1</p> </div>
-</div>
+  <h2>Color</h2>
 
-<div class="palette">
-	<h4> Backgrounds </h4>
-	<div class="backgrounds" id="bg-light-gray"> <p>$bg-light-gray: #ecebe5</p> </div>
-	<div class="backgrounds" id="bg-silver-gray"> <p>$bg-silver-gray: #e5e5e5</p> </div>
-	<div class="backgrounds" id="bg-off-white"> <p>$bg-off-white: #f2f2f0</p> </div>
-	<div class="backgrounds" id="bg-red"> <p>$bg-red: #a82439</p> </div>
+  <div class="palette">
+    <h4> Standard </h4>
+    <div class="standard" id="red"> <p>$red: #a82439</p> </div>
+    <div class="standard" id="black"> <p>$black: #353430</p> </div>
+    <div class="standard" id="warm-gray"> <p>$warm-gray: #edeade</p> </div>
+    <div class="standard" id="cool-gray"> <p>$cool-gray: #ecebe5</p> </div>
+  </div>
+
+  <div class="palette">
+    <h4> Accents </h4>
+    <div class="accents" id="blue"> <p>$blue: #407892</p> </div>
+    <div class="accents" id="light-blue"> <p>$light-blue: #02bac1</p> </div>
+    <div class="accents" id="green"> <p>$green: #25b6a4</p> </div>
+    <div class="accents" id="light-green"> <p>$light-green: #c6dbd2</p> </div>
+    <div class="accents" id="yellow"> <p>$yellow: #fed03d</p> </div>
+    <div class="accents" id="gold"> <p>$gold: #f39c12</p> </div>
+    <div class="accents" id="orange"> <p>$orange: #e35c4a</p> </div>
+    <div class="accents" id="purple"> <p>$purple: #9b2672</p> </div>
+    <div class="accents" id="gray-slate"> <p>$gray-slate: #62605a</p> </div>
+    <div class="accents" id="gray-smoke"> <p>$gray-smoke: #9a9996</p> </div>
+    <div class="accents" id="gray-mist"> <p>$gray-mist: #cbcac5</p> </div>
+    <div class="accents" id="gray-cement"> <p>$gray-cement: #e2e2e1</p> </div>
+  </div>
+
+  <div class="palette">
+	  <h4> Backgrounds </h4>
+	  <div class="backgrounds" id="bg-light-gray"> <p>$bg-light-gray: #ecebe5</p> </div>
+	  <div class="backgrounds" id="bg-silver-gray"> <p>$bg-silver-gray: #e5e5e5</p> </div>
+	  <div class="backgrounds" id="bg-off-white"> <p>$bg-off-white: #f2f2f0</p> </div>
+	  <div class="backgrounds" id="bg-red"> <p>$bg-red: #a82439</p> </div>
+  </div>
 </div>
