@@ -3,9 +3,19 @@
 
 	{% include head.html %}
 
+  {% include navbar.html %}
+
 	{% include header.html %}
 
-	{{ content }}
+	<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+          Welcome to our Style Guide! You can find our preferred practices via
+  		  the navigation bar above. The github repository for this guide is found
+  		  <a href="https://github.com/chapmanu/smc-style-guide">here</a>.
+        </article>
+      </div>
+    </main>
 
 	{% include footer.html %}
 
