@@ -4,7 +4,7 @@
 @import "colors.scss";
 
 .page-content {
-	margin-left: 185px;
+  margin-left: 185px;
   margin-top: 35px;
   margin-right: 40px;
   overflow: hidden;
@@ -15,10 +15,10 @@
   color: #353430;
   line-height: 1.16666666666667;
   line-height: 1.75rem; /* 28px */
-	margin-top: 60px;
-	margin-bottom:50px;
-	padding-bottom: 20px;
-	border-bottom: 1px dashed #BBB;
+  margin-top: 60px;
+  margin-bottom:50px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #BBB;
   font: "proxima-nova-soft","Helvetica Neue","Microsoft Sans Serif",sans-serif;
 }
 
@@ -128,15 +128,15 @@
 }
 
 #bg-silver-gray {
-	background-color: $bg-silver-gray;
+  background-color: $bg-silver-gray;
 }
 
 #bg-off-white {
-	background-color: $bg-off-white;
+  background-color: $bg-off-white;
 }
 
 #bg-red {
-	background-color: $bg-red;
+  background-color: $bg-red;
 }
 
 /* *************** */
@@ -149,8 +149,8 @@
 /* ************ */
 
 #title {
-	font-size: 45px;
-	padding-bottom: 0.75em;
+  font-size: 45px;
+  padding-bottom: 0.75em;
   padding-top: 38px;
   border-bottom: 2px dashed #000000;
 }
@@ -173,4 +173,93 @@
 
 #style {
   padding-top: 20px;
+}
+
+/********* NAV BAR ***********/
+/* Define the body style */
+#navbar {
+    font-family: "futura-pt", sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #333;
+}
+/* We remove the margin, padding, and list style of UL and LI components */
+ #navbar ul, #navbar ul li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+/* We apply background color and border bottom white and width to 150px */
+ #navbar ul li {
+    background: #333;
+    border-bottom: 1px solid #393939;
+    color: #ccc;
+    display: block;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 100;
+    width:12em;
+    cursor: pointer;
+    position: relative;
+}
+
+ #navbar ul li a:hover {
+    background: #fff;
+    color: #A82439;
+}
+
+ #navbar ul li a {
+    padding:20px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+/**** SECOND LEVEL MENU ****/
+
+ #navbar ul li ul {
+    position:fixed;
+    display:none;
+}
+
+ #navbar ul li:hover ul {
+    left:153px;
+    top: 0;
+    position: absolute;
+    display:block;
+}
+
+ #navbar ul li ul li {
+    background: #333;
+}
+
+ #navbar ul li:hover ul li a:hover {
+    background: #fff;
+    color: #A82439;
+}
+
+ #navbar ul li ul li a {
+    padding:20px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+
+ .clear {
+    clear:both;
+}
+
+.new_icons {
+  display: inline-block;
+  width: 15%;
+  height: 80px;
+  padding-bottom: 50px;
 }
