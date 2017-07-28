@@ -4,7 +4,7 @@ title: Color
 permalink: /color/
 ---
 
-<div class="wrapper">
+<div class="container">
 
   <h2>Color</h2>
 
