@@ -31,7 +31,8 @@ body {
 	-o-font-feature-settings: "kern" 1;
 	font-feature-settings: "kern" 1;
 	font-kerning: normal;
-	margin-left: 130px;
+	margin: 0 0 0 150px;
+	padding: 0;
 }
 
 img {
@@ -48,7 +49,7 @@ li > ol {
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 800; 
+	font-weight: 700; 
 	font-family: "futura-pt", sans-serif;
 }
 
@@ -62,13 +63,12 @@ a {
 	a:visited {
 		color: $red; }
 	a:hover {
-		color: #ba183e;
+		color: $red-secondary;
 		text-decoration: underline; }
 	.social-media-list a:hover {
 		text-decoration: none; }
 		.social-media-list a:hover .username {
 			text-decoration: underline; }
-
 
 /* logo */
 
@@ -113,6 +113,7 @@ header {
 
 .container {
 	padding: 20px;
+
 }
 
 /* clearfix */
@@ -123,6 +124,21 @@ header {
 	clear: both; 
 }
 
+/* heading */ 
+
+.heading {
+	font: 700 26px/28px "futura-pt";
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+/* subheading */
+
+.subheading {
+	font: 14px/1.5 "minion-pro", serif;
+	font-style: italic;
+	margin-bottom: 25px;
+}
 
 /* icons */
 
@@ -130,7 +146,7 @@ header {
 	display: inline-block;
 	vertical-align: middle; }
 	.icon > svg path {
-		fill: #8282f82; }
+		fill: #828282; }
 
 .social-media-list .icon {
 	padding-right: 5px; }
@@ -144,21 +160,7 @@ header {
 	border: 0;
 }
 
-/* heading */ 
 
-.heading {
-	font: 800 28px/28px "futura-pt";
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-
-/* subheading */
-
-.subheading {
-	font: 16px/1.5 "minion-pro", serif;
-	font-style: italic;
-	margin-bottom: 25px;
-}
 
 
 /* navbar */
@@ -188,7 +190,7 @@ header {
 		display: block;
 		margin: 0;
 		text-decoration: none;
-		width: 130px;
+		width: 150px;
 		cursor: pointer;
 		position: relative;
 }
@@ -211,10 +213,187 @@ header {
 /* section */
 
 section {
-	padding: 20px 0;
+	margin: 0; 
+	padding: 25px 0;
 	background: #ffffff;
 	&.dark {
 		background: $bg-off-white;
+	}
+}
+
+
+/* logo mark */
+
+#logo {
+	.section-wrapper {
+		.logo-list {
+			margin: 0 50px 25px 0;
+			float: left;
+			.description {
+				text-align: center;
+				font: 12px "proxima-nova";
+				padding-bottom: 10px;
+				border-bottom: 1px solid $bg-silver;	
+				margin-bottom: 20px;
+				width: 280px; 
+			}
+			.logo-horizontal {
+				width: 280px;
+				margin-bottom: 20px;
+
+				&.logo-horizontal-black {
+					width: 230px;
+					background: $bg-off-white;
+					padding: 25px;
+					.logo-icon > svg {
+						width: 230px;
+					}
+				}
+				&.logo-horizontal-white  {
+					width: 230px;
+					background: $bg-red;
+					padding: 25px;
+					.logo-icon > svg {
+						width: 230px;
+					}
+				}
+				.logo-icon > svg {
+					display: inline-block;
+					vertical-align: middle;
+					width: 280px; height: 28px; 
+				}	
+			}
+			.monogram {
+				text-align: center;
+
+				&.monogram-color {
+					width: 280px; 
+					.logo-icon > svg {
+						width: 100px; height: 100px;
+					}
+				}
+			}
+
+			.monogram-set {
+				margin-bottom: 10px;
+				text-align: center;
+				padding: 25px 15px 5px 15px; 
+				border-radius: 50%;
+
+				&.monogram-black {
+					float: left;
+					width: 90px; height: 90px;
+
+					margin-right: 20px;
+					background: $bg-off-white;
+					.logo-icon > svg {
+						width: 65px; height: 65px;
+					}
+				}
+
+				&.monogram-white  {
+					float: right;
+					width: 90px; height: 90px;
+
+					background: $bg-red;
+					.logo-icon > svg {
+						width: 65px; height: 65px;
+					}
+				}
+			}
+			.logo-stacked {
+				width: 280px;
+				margin-bottom: 15px;
+				text-align: center;
+
+				&.logo-stacked-black {
+					width: 230px;
+					background: $bg-off-white;
+					padding: 20px;
+					.logo-icon > svg {
+						width: 134px;
+					}
+				}
+				&.logo-stacked-white  {
+					width: 230px;
+					background: $bg-red;
+					padding: 20px;
+					.logo-icon > svg {
+						width: 134px;
+					}
+				}
+				.logo-icon > svg {
+					display: inline-block;
+					vertical-align: middle;
+					width: 182px; height: 38px; 
+				}	
+			}
+			
+		}
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}	
+	}
+}					
+
+/* college icons */
+
+#college-icons {
+	.section-wrapper {
+		text-align: center;
+		margin-bottom: 10px;
+		.main-description {
+			font: 12px "proxima-nova";
+			padding-bottom: 10px;
+			border-bottom: 1px solid $bg-silver-gray;	
+			margin-bottom: 15px;
+		}
+		.school-icon-list {
+			float: left;
+			
+			.description {
+				font: 12px "proxima-nova";
+				width: 85px; 
+				margin-bottom: 10px;
+			}
+			.solid-icon {
+				background: $bg-red;
+				border: 0;
+				padding: 15px;
+				margin: 0 15px 15px 0;
+				width: 50px; height: 50px; 
+				fill: $white;
+				&.fowler-fix {
+					padding: 10px;
+					width: 60px; height: 60px; 
+				}
+			} 	
+			.border-icon {
+				border: 1px solid $bg-red;
+				padding: 15px;
+				margin: 0 15px 15px 0;
+				width: 48px; height: 48px; 
+				fill: $red;
+				&.fowler-fix {
+					padding: 10px;
+					width: 58px; height: 58px; 
+				}
+			}
+			.school-icon > svg {
+				display: inline-block;
+				vertical-align: middle;
+				width: 100%; height: 100%; 
+			}	
+		}	
+
+		
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}	
 	}
 }
 
@@ -223,11 +402,12 @@ section {
 #colors {
 	.section-wrapper {
 		text-align: center;
+		margin-bottom: 25px;
 		.main-description {
 			font: 12px "proxima-nova";
 			padding-bottom: 10px;
 			border-bottom: 1px solid $bg-silver;	
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 		.description {
 			float: left;
@@ -245,8 +425,21 @@ section {
 				&.bg-light-gray { background: $bg-light-gray; }
 				&.bg-gray { background: $bg-gray; }
 				&.bg-dark-gray { background: $bg-dark-gray; }
-				&.black { background: $black; }
-				&.red { background: $red; }
+				&.bg-black { background: $bg-black; }
+				&.bg-red { background: $bg-red; }
+				&.color-argyros { background: $color-argyros; }
+				&.color-ces { background: $color-ces; }
+				&.color-copa { background: $color-copa; }
+				&.color-copa-dance { background: $color-copa-dance; }
+				&.color-copa-music { background: $color-copa-music; }
+				&.color-copa-theater { background: $color-copa-theater; }
+				&.color-crean { background: $color-crean; }
+				&.color-dodge { background: $color-dodge; }
+				&.color-fowler { background: $color-fowler; }
+				&.color-schmid { background: $color-schmid; }
+				&.color-communication { background: $color-communication; }
+				&.color-pharmacy { background: $color-pharmacy; }
+				&.color-wilkinson { background: $color-wilkinson; }
 			}
 		}
 		&:after {
@@ -257,42 +450,23 @@ section {
 	}
 }
 
-
-
-
 /* typeface */
 
 #typeface {
 	.section-wrapper {
-		display: table;
-		margin: 10px 0 0 0; 
-		width: 100%;
-		color: #2f2f2f;
-		>div {
-			display: table-cell;
-			vertical-align: middle;
-		}
 		.description {
+			float: left;
 			font: 12px "proxima-nova";
-			width: 160px;
 			padding: 10px 50px 10px 0;
 		} 
-		
-		p {
-			padding: 0 50px;
-		}
-			
 		&:after {
 			content: '';
 			display: block;
 			clear: both;
 		}	
-		/*@media screen and (max-width: 780px) {
-    		test { margin: 0; }
-		}*/
 	}
 	.futura {
-		font: 800 40px/48px 'futura-pt';
+		font: 700 40px/48px 'futura-pt';
 		&.book {
 			font-weight: 400;
 		}
@@ -307,7 +481,7 @@ section {
 		}
 	}
 	.proxima {
-		font: 800 40px/46px 'proxima-nova';
+		font: 700 40px/46px 'proxima-nova';
 		&.regular {
 			font-weight: 400;
 		}
@@ -356,7 +530,7 @@ section {
 		}*/
 	}
 	h1 {
-		font: 800 48px/48px 'futura-pt';
+		font: 700 48px/48px 'futura-pt';
 	}
 	h2 {
 		font: 100 48px/48px 'futura-pt';
