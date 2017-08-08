@@ -33,6 +33,8 @@ permalink: /permalink_goes_here/
 ```
 - In the _includes folder create the file you plan to include with the necessary html
 
+- Make sure intendation is set to 2 spaces.
+
 ### Adding SCSS and CSS files
 - In the `assets` folder create your SCSS file
 - If you plan to import other files into it you need to add the following at the top of the file [source](https://jekyllrb.com/docs/assets/):
