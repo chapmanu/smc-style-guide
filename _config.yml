@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SMC Style Guide
+title: Chapman University Web Style Guide
 email: Email
 description: > # this means to ignore newlines until "baseurl:"
-  This style guide documents the style practices to be followed for all of our sites.
+  The Chapman University Web Style Guide serves as a reference documentation for university web standards to ensure coherent visual experience across all university websites and microsites. For inquiries, please contact UX/UI Designer Wai dela Cruz at Strategic Marketing and Communications.
 baseurl: "/smc-style-guide" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chapmanu
