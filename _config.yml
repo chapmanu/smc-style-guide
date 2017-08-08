@@ -16,7 +16,7 @@
 title: Chapman University Web Style Guide
 email: Email
 description: > # this means to ignore newlines until "baseurl:"
-  This style guide documents the style practices to be followed for all of our sites. For inquiries, please contact UX/UI Designer Wai dela Cruz.
+  The Chapman University Web Style Guide serves as a reference documentation for university web standards to ensure coherent visual experience across all university websites and microsites. For inquiries, please contact UX/UI Designer Wai dela Cruz at Strategic Marketing and Communications.
 baseurl: "/smc-style-guide" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chapmanu
